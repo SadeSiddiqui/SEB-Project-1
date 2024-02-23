@@ -52,8 +52,6 @@ function init() {
         }
     }
 
-    
-
  // Removing the snake
     function removeSnake() {
         for (i = 0; i < currentSnake.length; i++) {
@@ -61,6 +59,7 @@ function init() {
         }
     }
 
+ // Moving the snake 
     function handleKeyDown(event) {
         removeSnake()
         console.log(food);
